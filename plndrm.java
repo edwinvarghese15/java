@@ -6,14 +6,14 @@ class plndrm
   Scanner sc=new Scanner(System.in);
   String s,s2,s1="";
   int i,n;
-  //char ch;
+
   s=sc.nextLine();
   n=s.length();
   s2=s;
 
   for(i=n-1;i>=0;i--)
      {
-     // ch=s.CharAt(i);
+     
       s1=s1+s.charAt(i);
      }
    System.out.println("the entered string is: "+s);
