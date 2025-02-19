@@ -38,11 +38,11 @@ class Product
 	}
 		else if(ob2.price<ob1.price && ob2.price<ob3.price)
 		{
-			System.out.println(ob2.price+" is the product with lower price .");
+			System.out.println(ob2.pname+" is the product with lower price .");
 		}
 			else
 			{
-				System.out.println(ob3.price+" is the product with lower price .");
+				System.out.println(ob3.pname+" is the product with lower price .");
 			}
 		}
 	}
