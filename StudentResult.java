@@ -23,8 +23,8 @@ class Student {
         System.out.println("Student Details");
         System.out.println("Name of Student: " + name);
         System.out.println("Roll No. of Student: " + roll_no);
-        System.out.println("Marks of Subject 1: " + mark1);
-        System.out.println("Marks of Subject 2: " + mark2);
+        System.out.println("Marks of Semester 1: " + mark1);
+        System.out.println("Marks of Semester 2: " + mark2);
     }
 }
 
@@ -66,9 +66,9 @@ class StudentResult {
         String n = br.readLine();
         System.out.print("Enter roll no : ");
         int roll = Integer.parseInt(br.readLine());
-        System.out.print("Enter  mark in first subject : ");
+        System.out.print("Enter  mark in first semester : ");
         float m1 = Float.parseFloat(br.readLine());
-        System.out.print("Enter  mark in second subject : ");
+        System.out.print("Enter  mark in second semester : ");
         float m2 = Float.parseFloat(br.readLine());
         Result re = new Result(n, roll, m1, m2);
         re.sports_getData();
